@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+
+<body bgcolor="#E8E6F5">
+
+<table border="1" width="100%" cellspacing="5" cellpadding="10">
+
+    <tr bgcolor="#B8C5E8">
+        <td>
+            <header align="center">
+                <h1>CONTACTANOS</h1>
+                <p>Nuevo Chimbote</p>
+            </header>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center">
+            <nav>
+                <a href="Pagina_principal_Amely.html">Inicio</a>
+                <a href="Historia_Amely.html">Historia</a>
+                <a href="Turismo_Amely.html">Turismo</a> 
+                <a href="Gastronomia_Amely.html">Gastronomía</a>
+                <a href="Contacto_Amely.html">Contacto</a>
+            </nav>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <main>
+                <section>
+                    <h2>Formulario de información</h2>
+                    <form action="">
+                        <label>Nombres:</label>
+                        <input type="text" name="nombres"
+                        placeholder="Ingrese sus nombres" required>
+                        <br><br>
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="correo" placeholder="Ingrese su correo" required>
+                        <br><br>
+                        <label>Edad:</label>
+                        <input type="number" name="edad" min="1" max="100">
+                        <br><br>
+                        <label>Fecha:</label>
+                        <input type="date" name="fecha">
+                        <br><br>
+                        <label>Sexo:</label>
+                        <input type="radio" name="sexo" value="Femenino">Femenino
+                        <input type="radio" name="sexo" value="Masculino">Masculino
+                        <br><br>
+                        <label>¿Qué información desea conocer?</label>
+                        <br>
+                        <input type="checkbox" name="tema" value="Turismo">Turismo
+                        <input type="checkbox" name="tema" value="Historia">Historia
+                        <input type="checkbox" name="tema" value="Gastronomia">Gastronomía
+                        <br><br>
+                        <label>Distrito:</label>
+                        <select name="distrito">
+                            <option>Nuevo Chimbote</option>
+                            <option>Chimbote</option>
+                            <option>Otro</option>
+                        </select>
+                        <br><br>
+                        <label>Mensaje:</label>
+                        <br>
+                        <textarea name="mensaje" rows="5" cols="40" placeholder="Escriba su mensaje"></textarea>
+                        <br><br>
+                        <input type="submit" value="Enviar datos">
+                        <input type="reset" value="Limpiar">
+                    </form>
+                </section>
+            </main>
+        </td>
+    </tr>
+    <tr>
+
+</table>
+</body>
+</html>
